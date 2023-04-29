@@ -3,4 +3,6 @@ docker-compose run --rm web-app sh -c "django-admin startproject service ."
 далее из какого сервиса мы должны создать контейнер
 sh -c команда должна запускатья при помоши линукс шела ну и в кавычках пишем сому команду а точка значит что создать этот проект в текушей дериктории из которой это команда запустилась
 ------------------------------------------------------------
-
+2.ВИДЕО
+docker-compose run --rm web-app sh -c "python manage.py startapp clients"
+docker-compose run --rm web-app sh -c "./manage.py makemigrations clients"  - пишем для какого приложения мы хотим создать миграцию.
